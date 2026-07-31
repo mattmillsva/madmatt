@@ -42,11 +42,11 @@
             <source>https://github.com/mattmillsva/madmatt</source>
             <author>Matt Mills</author>
             <assets>
-                <icon>icon.png</icon>
-                <fanart>resources/media/fanart.jpg</fanart>
-                <screenshot>resources/media/screenshots/screenshot1.jpg</screenshot>
-                <screenshot>resources/media/screenshots/screenshot2.jpg</screenshot>
-                <screenshot>resources/media/screenshots/screenshot3.jpg</screenshot>
+                <icon>/media/icon.png</icon>
+                <fanart>/media/fanart.jpg</fanart>
+                <screenshot>/media/screenshot1.jpg</screenshot>
+                <screenshot>/media/screenshot2.jpg</screenshot>
+                <screenshot>/media/screenshot3.jpg</screenshot>
             </assets>
         </extension>
     </addon>
