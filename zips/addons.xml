@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
     <!-- 1. Repository Metadata Block -->
-    <addon id="repository.madmatt" name="madmatt's Repo" version="1.0.0" provider-name="Matt Mills">
+    <addon id="repository.madmatt" name="MadMatt's Repo" version="1.0.0" provider-name="Matt Mills">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="madmatt's Repo">
+        <extension point="xbmc.addon.repository" name="MadMatt's Repo">
             <dir minversion="19.0.0">
                 <info compressed="false">https://mattmillsva.github.io/madmatt/zips/addons.xml</info>
                 <checksum>https://mattmillsva.github.io/madmatt/zips/addons.xml.md5</checksum>
@@ -13,17 +13,21 @@
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>Repository for madmatt's Kodi Add-ons</summary>
+            <summary>Repository for Matt's Kodi Add-ons</summary>
             <description>Installs and updates custom add-ons created by Matt Mills.</description>
             <platform>all</platform>
             <assets>
                 <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+                <screenshot>resources/screenshots/screenshot-1.jpg</screenshot>
+                <screenshot>resources/screenshots/screenshot-2.jpg</screenshot>
+                <screenshot>resources/screenshots/screenshot-3.jpg</screenshot>
             </assets>
         </extension>
     </addon>
 
     <!-- 2. Trivia Game Metadata Block -->
-    <addon id="script.trivia.game" name="Trivia Game - Movies" version="1.0.0" provider-name="Matt Mills">
+    <addon id="script.trivia.game" name="Trivia Game - Movies" version="2.0.0" provider-name="Matt Mills">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
@@ -33,7 +37,7 @@
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
             <summary lang="en">Multiplayer and AI Movie Trivia Game with Dynamic Profiles</summary>
-            <description>Test your cinema knowledge with live questions fetched from OpenTDB! Featuring support for up to 4 players, custom user profiles to track your progress, and a local top 10 leaderboard to compete with friends.</description>
+            <description lang="en">Test your cinema knowledge with live questions fetched from OpenTDB! Featuring support for up to 4 players, custom user profiles to track your progress, and a local top 10 leaderboard to compete with friends.</description>
             <license>GPL-3.0-or-later</license>
             <source>https://github.com/mattmillsva/madmatt</source>
             <author>Matt Mills</author>

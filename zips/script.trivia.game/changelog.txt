@@ -1,0 +1,29 @@
+Version 1.1.0 - 2026-07-12
+- Added sound for winner banner and sudden death
+- Added in a Sudden Death rounds if humans are tied, or if human and AI tie, human wins auto
+- Added in a option in settings to do a -10 points if timer runs out 
+- Added jeopardy last round to option so you can wager points 
+
+Version 1.0.0 - 2026-07-05
+- Initial release of Trivia Game - Movies.
+- Integrated OpenTDB dynamic live question fetching.
+- Added custom user profile creation and tracking with local Top 10 leaderboards.
+- Added interactive Settings configuration allowing users to:
+    - Toggle timer tick sound effects on or off.
+    - Added on/off for intro sound. 
+    - Adjust question countdown timers (5 to 30 seconds, or infinite).
+    - Select multiplayer sessions supporting up to 4 simultaneous players.
+- Included HD screenshot assets, custom backdrop fanart, and game icon.
+- Added: AI opponents to the trivia game.
+- Added: Random AI taunts based on round outcomes (win/loss), current game standings (winning/losing), and final game results.
+- Added: Dedicated media folder to organize media assets.
+- Fixed: Trigger arrow key movements.
+- Changed: Cleaned up and documented scripts.
+- Added 5 custom made backgrounds 
+
+Version 2.0.0 - 2026-07-30
+- Created Global leaderboards
+- Added TV Trivia questions option
+- Added 3 new skins
+- Includes a dead heat tie breaker round now
+- Includes an optio for a jepordy round bet before the last round 
