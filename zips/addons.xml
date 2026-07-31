@@ -27,7 +27,7 @@
     </addon>
 
     <!-- 2. Trivia Game Metadata Block -->
-    <addon id="script.trivia.game" name="trivia game - Movies and TV shows" version="2.0.0" provider-name="Matt Mills">
+    <addon id="script.trivia.game" name="trivia game - Movies and TV shows" version="2.0.1" provider-name="Matt Mills">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
